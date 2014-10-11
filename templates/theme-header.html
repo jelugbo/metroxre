@@ -19,7 +19,7 @@
 
 ## TODO: this will eventually be moved to the Sass
 <%block name="navigation_logo">
-  <img src="${static.url('themes/metrox/images/hebs_logo.png')}" height="35" alt="${_('{platform_name}, Courses List').format(platform_name='HEBS')}" />
+  <img src="${static.url('themes/metrox/images/hebs_logo2.png')}" height="55" alt="${_('{platform_name}, Courses List').format(platform_name='HEBS')}" />
 </%block>
 
 ## We don't want extra links inside the navigation dropdown
@@ -28,7 +28,16 @@
 ## When unauthenticated, only show the about page link
 <%block name="navigation_global_links">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}">About</a>
+    <a href="${marketing_link('ABOUT')}">About HEBS</a>
+  </li>
+   <li class="nav-global-02">
+    <a href="#">How it Works</a>
+  </li>
+   <li class="nav-global-03">
+    <a href="${marketing_link('COURSES')}">Courses</a>
+  </li>
+   <li class="nav-global-04">
+    <a href="#">Specializations</a>
   </li>
 </%block>
 
@@ -38,7 +47,13 @@
     <a href="${marketing_link('ABOUT')}">${_('About')}</a>
   </li>
   <li class="nav-global-02">
+    <a href="#">How it Works</a>
+  </li>
+  <li class="nav-global-03">
     <a href="${marketing_link('COURSES')}">${_('Find Courses')}</a>
+  </li>
+  <li class="nav-global-04">
+    <a href="#">Specializations</a>
   </li>
 </%block>
 
