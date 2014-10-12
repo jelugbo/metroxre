@@ -91,8 +91,8 @@
 		.region-footer-columns p.copyright {color: #8a8c8f !important;}
  
 		.region-footer-columns .region-footer-second {
-			width: 100%;
-			float: none;
+			width: 50%;
+			float: left;
 		 }
  
 			.region-footer-columns .region-footer-second nav {
@@ -103,7 +103,7 @@
 				padding-left: 0px;
 				border-left: none;
 				border-right: none;
-				margin-top: 30px;
+				/*margin-top: 30px;*/
 			 }
  
 			.region-footer-columns .region-footer-second .nav {clear: none;}
