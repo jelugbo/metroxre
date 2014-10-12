@@ -30,7 +30,10 @@
  
 		.region-footer-columns .region-footer-first {
 			width: 100%;
-			float: none;
+			margin-left: 20px;
+			width: calc(50% - 20px);
+			float: left;
+			position: relative;
 		 }
  
 			.region-footer-columns .region-footer-first .region-inner {padding-right: 10px;}
@@ -94,8 +97,8 @@
  
 			.region-footer-columns .region-footer-second nav {
 				margin-bottom: 1em;
-				width: 100%;
-				float: none;
+				width: 50%;
+				float: left;
 				padding-right: 0px;
 				padding-left: 0px;
 				border-left: none;
