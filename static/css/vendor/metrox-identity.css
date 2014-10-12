@@ -212,7 +212,7 @@ Media queries
 
   p.copyright {
     text-align:left;
-    padding-left:17%;
+    padding-left:0;
     padding-top:25px;
   }
 }
@@ -250,7 +250,7 @@ Media queries
   }
 
   p.copyright {
-    padding-left:16%;
+    padding-left:0;
     color: #000;
   }
 }

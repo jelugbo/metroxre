@@ -97,13 +97,13 @@
  
 			.region-footer-columns .region-footer-second nav {
 				margin-bottom: 1em;
-				width: 50%;
+				width: 43%;
 				float: left;
-				padding-right: 0px;
-				padding-left: 0px;
+				padding-right: 20px;
+				padding-left: 25px;
 				border-left: none;
 				border-right: none;
-				/*margin-top: 30px;*/
+				margin-top: 30px;
 			 }
  
 			.region-footer-columns .region-footer-second .nav {clear: none;}
@@ -115,7 +115,8 @@
 				.region-footer-columns .region-footer-second .nav.block-menu-social li,.region-footer-columns .region-footer-second .nav.block-menu-social ul.menu.li,.region-footer-columns .region-footer-second .nav.block-menu-supplement li,.region-footer-columns .region-footer-second .nav.block-menu-supplement ul.menu.li {padding: 0 !important;}
  
 			.region-footer-columns .region-footer-second section.block-menu-social {
-				width: 100%;
+				width: 42%;
+				float: left;;
 				padding: 0px;
 				margin-top: 30px;
 			 }
